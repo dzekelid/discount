@@ -8,11 +8,47 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2433"
 tags: Discount
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/square/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Square Connect - Creates a discount.
+  x-api-slug: v1location-iddiscounts-post
+  description: Creates a discount.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/square/v1location-iddiscounts-post-openapi.md
+- name: Square Connect - Deletes an existing discount.
+  x-api-slug: v1location-iddiscountsdiscount-id-delete
+  description: Deletes an existing discount.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/square/v1location-iddiscountsdiscount-id-delete-openapi.md
+- name: Square Connect - Modifies the details of an existing discount.
+  x-api-slug: v1location-iddiscountsdiscount-id-put
+  description: Modifies the details of an existing discount.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/square/v1location-iddiscountsdiscount-id-put-openapi.md
 x-common:
 - type: x-website
   url: http://square.com

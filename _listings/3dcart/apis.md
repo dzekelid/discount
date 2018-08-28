@@ -10,11 +10,51 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-
 x-kinRank: "7"
 x-alexaRank: "78099"
 tags: Discount
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/3dcart/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: _3dCartWebAPI - Adds a new discount to the system
+  x-api-slug: 3dcartwebapiv1productscatalogiddiscount-post
+  description: Adds a new discount to the system.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/3dcart/3dcartwebapiv1productscatalogiddiscount-post-openapi.md
+- name: _3dCartWebAPI - Updates a specific discount from a specific Product
+  x-api-slug: 3dcartwebapiv1productscatalogiddiscountdiscountid-put
+  description: Updates a specific discount from a specific product.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/3dcart/3dcartwebapiv1productscatalogiddiscountdiscountid-put-openapi.md
+- name: _3dCartWebAPI - Get the discounts from a specific Product
+  x-api-slug: 3dcartwebapiv1productscatalogiddiscount-get
+  description: Get the discounts from a specific product.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/3dcart/3dcartwebapiv1productscatalogiddiscount-get-openapi.md
+- name: _3dCartWebAPI - Updates a collection of discounts from a specific Product
+  x-api-slug: 3dcartwebapiv1productscatalogiddiscount-put
+  description: Updates a collection of discounts from a specific product.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/3dcart/3dcartwebapiv1productscatalogiddiscount-put-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/3dcart

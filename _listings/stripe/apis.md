@@ -9,11 +9,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: Discount
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Stripe - Delete Customers Customer Discount
+  x-api-slug: customerscustomerdiscount-delete
+  description: Removes the currently applied discount on a customer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/stripe/customerscustomerdiscount-delete-openapi.md
 - name: Stripe - Get Customers Customer Discount
   x-api-slug: customerscustomerdiscount-get
   description: Get Customers, Customer, Discount
@@ -28,6 +40,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/stripe/customerscustomerdiscount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/stripe/customerscustomerdiscount-get-openapi.md
+- name: Stripe - Delete Customers Customer Subscriptions Subscription Exposed  Discount
+  x-api-slug: customerscustomersubscriptionssubscription-exposed-iddiscount-delete
+  description: Delete Customers, Customer, Subscriptions, Subscription, Exposed, ,
+    Discount
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/stripe/customerscustomersubscriptionssubscription-exposed-iddiscount-delete-openapi.md
 - name: Stripe - Get Customers Customer Subscriptions Subscription Exposed  Discount
   x-api-slug: customerscustomersubscriptionssubscription-exposed-iddiscount-get
   description: Get Customers, Customer, Subscriptions, Subscription, Exposed, , Discount
@@ -42,6 +67,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/stripe/customerscustomersubscriptionssubscription-exposed-iddiscount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/stripe/customerscustomersubscriptionssubscription-exposed-iddiscount-get-openapi.md
+- name: Stripe - Delete Subscriptions Subscription Exposed  Discount
+  x-api-slug: subscriptionssubscription-exposed-iddiscount-delete
+  description: Delete Subscriptions, Subscription, Exposed, , Discount
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discount/master/_listings/stripe/subscriptionssubscription-exposed-iddiscount-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://stride.api.gallery.streamdata.io
